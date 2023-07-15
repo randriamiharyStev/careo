@@ -31,9 +31,9 @@
    <!-- body -->
    <body class="main-layout">
       <!-- loader  -->
-      {{-- <div class="loader_bg">
+      <div class="loader_bg">
          <div class="loader"><img src="{{asset("assets/images/loading.gif")}}" alt="#" /></div>
-      </div> --}}
+      </div>
       <!-- end loader -->
       <!-- header -->
       <header>
@@ -71,7 +71,7 @@
                      <div class="full">
                         <div class="center-desk">
                            <div class="logo">
-                              <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                              <a href="index.html"><img src={{asset("assets/images/logo.png")}} alt="#" /></a>
                            </div>
                         </div>
                      </div>
@@ -79,7 +79,7 @@
                   <div class="col-xl-5 col-lg-5 col-md-5 col-sm-5">
                      <ul class="email">
                         <li><a href="#">Call: (+71) 1234567890</a></li>
-                        <li><a href="#">Email: demo@gmail.com</a></li>
+                        <li><a href="#">Email: me@gmail.com</a></li>
                         <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
                      </ul>
                   </div>
@@ -112,7 +112,7 @@
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
-                                 <figure><img src="images/girl.png" alt="#"/></figure>
+                                 <figure><img src={{asset("assets/images/girl.png")}} alt="#"/></figure>
                               </div>
                            </div>
                         </div>
@@ -133,7 +133,7 @@
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
-                                 <figure><img src="images/girl.png" alt="#"/></figure>
+                                 <figure><img src={{asset("assets/images/girl.png")}} alt="#"/></figure>
                               </div>
                            </div>
                         </div>
@@ -154,7 +154,7 @@
                            </div>
                            <div class="col-md-6">
                               <div class="text_img">
-                                 <figure><img src="images/girl.png" alt="#"/></figure>
+                                 <figure><img src={{asset("assets/images/girl.png")}} alt="#"/></figure>
                               </div>
                            </div>
                         </div>
@@ -177,28 +177,28 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2> <img src="images/head.png" alt="#"/> Our Services</h2>
+                     <h2> <img src={{asset("assets/images/head.png")}} alt="#"/> Our Services</h2>
                   </div>
                </div>
             </div>
             <div class="row">
                <div class="col-md-4">
                   <div id="hover_chang" class="service_box">
-                     <i><img src="images/thr.png" alt="#"/></i>
+                     <i><img src={{asset("assets/images/thr.png")}} alt="#"/></i>
                      <h3>Cosmetic</h3>
                      <p>some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
                   </div>
                </div>
                <div class="col-md-4">
                   <div id="hover_chang" class="service_box">
-                     <i><img src="images/thr1.png" alt="#"/></i>
+                     <i><img src={{asset("assets/images/thr1.png")}} alt="#"/></i>
                      <h3>nails</h3>
                      <p>some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
                   </div>
                </div>
                <div class="col-md-4">
                   <div id="hover_chang" class="service_box">
-                     <i><img src="images/thr2.png" alt="#"/></i>
+                     <i><img src={{asset("assets/images/thr2.png")}} alt="#"/></i>
                      <h3>hairdressing</h3>
                      <p>some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
                   </div>
@@ -216,7 +216,7 @@
             <div class="row">
                <div class="col-md-9">
                   <div class="titlepage">
-                     <h2> <img src="images/head.h.png" alt="#"/> About Our Labspa</h2>
+                     <h2> <img src={{asset("assets/images/head.h.png")}} alt="#"/> About Our Labspa</h2>
                      <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are </p>
                      <a class="read_more">Read More</a>
                   </div>
@@ -231,7 +231,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2> <img src="images/head.png" alt="#"/> Our Customer Feedback</h2>
+                     <h2> <img src={{asset("assets/images/head.png")}} alt="#"/> Our Customer Feedback</h2>
                   </div>
                </div>
             </div>
@@ -246,11 +246,11 @@
                      <div class="container">
                         <div class="carousel-caption ">
                            <div class="test_box">
-                              <i><img src="images/tes.png" alt="#"/></i>
+                              <i><img src={{asset("assets/images/tes.png")}} alt="#"/></i>
                               <h4>Rohali jonson</h4>
                               <span>customer</span>
                               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
-                              <img src="images/icon.png" alt="#"/>
+                              <img src={{asset("assets/images/icon.png")}} alt="#"/>
                            </div>
                         </div>
                      </div>
@@ -259,11 +259,11 @@
                      <div class="container">
                         <div class="carousel-caption">
                            <div class="test_box">
-                              <i><img src="images/tes.png" alt="#"/></i>
+                              <i><img src={{asset("assets/images/tes.png")}} alt="#"/></i>
                               <h4>Rohali jonson</h4>
                               <span>customer</span>
                               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
-                              <img src="images/icon.png" alt="#"/>
+                              <img src={{asset("assets/images/icon.png")}} alt="#"/>
                            </div>
                         </div>
                      </div>
@@ -272,11 +272,11 @@
                      <div class="container">
                         <div class="carousel-caption">
                            <div class="test_box">
-                              <i><img src="images/tes.png" alt="#"/></i>
+                              <i><img src={{asset("assets/images/tes.png")}} alt="#"/></i>
                               <h4>Rohali jonson</h4>
                               <span>customer</span>
                               <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined </p>
-                              <img src="images/icon.png" alt="#"/>
+                              <img src={{asset("assets/images/icon.png")}} alt="#"/>
                            </div>
                         </div>
                      </div>
@@ -299,7 +299,7 @@
             <div class="row">
                <div class="col-md-12">
                   <div class="titlepage">
-                     <h2> <img src="images/head.h.png" alt="#"/> Request <span class="white"> A call Back</span></h2>
+                     <h2> <img src={{asset("assets/images/head.h.png")}} alt="#"/> Request <span class="white"> A call Back</span></h2>
                   </div>
                </div>
             </div>
@@ -352,7 +352,7 @@
                      <div class="row">
                         <div class="col-md-7 padd_bottom">
                            <div class="heading3">
-                              <a href="#"><img src="images/logo1.png" alt="#"/></a>
+                              <a href="#"><img src={{asset("assets/images/logo1.png")}} alt="#"/></a>
                               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros.</p>
                            </div>
                         </div>
@@ -416,13 +416,13 @@
       </footer>
       <!-- end footer -->
       <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src={{asset("assets/js/jquery.min.js")}}></script>
+      <script src={{asset("assets/js/popper.min.js")}}></script>
+      <script src={{asset("assets/js/bootstrap.bundle.min.js")}}></script>
+      <script src={{asset("assets/js/jquery-3.0.0.min.js")}}></script>
       <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
+      <script src={{asset("assets/js/jquery.mCustomScrollbar.concat.min.js")}}></script>
+      <script src={{asset("assets/js/custom.js")}}></script>
       <script>
          $('a[href^="#"]').on('click', function(event) {
 
